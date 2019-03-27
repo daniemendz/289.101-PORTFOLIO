@@ -4,8 +4,9 @@ body{
     background-color: #fff;
     margin:0;
     font-family: "quicksand", sans-serif;
+    /*font-family: "EB Garamond", serif;*/
 }
 
-h1{
-    font-family: "EB Garamond", serif;
+#header{
+    
 }
