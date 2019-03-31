@@ -7,7 +7,25 @@ body{
     /*font-family: "EB Garamond", serif;*/
 }
 
+/*OUTLINEEE*/ *{ 
+    outline: 1px solid lime;
+}
 
+/*UNIVERSAL*/
+.title{
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.paragraph{
+    font-size: 1.3rem;
+}
+
+
+/*HOME*/
 #header{
     position: fixed;
     top: 0;
@@ -39,7 +57,7 @@ body{
     color: #f29298;
 }
 .links a:active{
-    font
+    text-decoration: underline;
 }
 
 #logo{
@@ -102,5 +120,24 @@ body{
 
 /*PORTFOLIO*/
 #portfolio{
-    height: ;
+    margin:auto;
+    background-color: #fff;
+    max-width: 1000px;
+}
+
+#portfolio .paragraph{
+    color: #000;
+}
+
+.gallery{
+    height: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 990px;
+}
+
+.galPic{
+    margin: 10px;
+    text-align: center;
 }
