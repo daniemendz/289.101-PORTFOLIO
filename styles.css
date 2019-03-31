@@ -8,11 +8,14 @@ body{
 }
 
 
-
 #header{
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 100%;
     background-color: #fff;
     height:120px;
-    /*border-bottom: solid 2px #eee;*/
+    border-bottom: solid 2px #eee;
 }
 .nav{
     max-width: 1000px; /*IMPORTANAAANTT*/
@@ -34,6 +37,9 @@ body{
 }
 .links a:hover{
     color: #f29298;
+}
+.links a:active{
+    font
 }
 
 #logo{
@@ -59,31 +65,42 @@ body{
 
 
 
-
+/*HOME*/
 #home{
     max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: 50% auto;
+    height: 1000px;
+    padding-top: 120px;
 }
 .banner{
-    margin: 40px 150px;
+    margin-top: 20px;
+    margin-left: 150px;
     text-align: left;
 }
 .banner img{
-    max-width: 420px;
+    max-width: 440px;
 }
 .name{
-    margin-top: 70px;
+    margin-top: 90px;
     font-family: "EB Garamond", serif;
     text-align: left;
-    font-size: 5rem;
+    font-size: 5.2rem;
 }
 .firstbio{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.firstbio p{
     font-size: 1.8rem;
-    margin-left: 90px;
-    margin-top: 40px;
+    margin:0;
+    padding:5px;
 }
 
 
 
+/*PORTFOLIO*/
+#portfolio{
+    height: ;
+}
