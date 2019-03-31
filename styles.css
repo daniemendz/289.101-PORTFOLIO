@@ -7,6 +7,83 @@ body{
     /*font-family: "EB Garamond", serif;*/
 }
 
+
+
 #header{
-    
+    background-color: #fff;
+    height:120px;
+    /*border-bottom: solid 2px #eee;*/
 }
+.nav{
+    max-width: 1000px; /*IMPORTANAAANTT*/
+    margin: auto; /*Center nav*/
+    display:grid;
+    grid-template-columns: 200px auto;
+}
+
+.links{
+    margin: 44px 20px;
+    font-size: 1.3rem;
+    text-align: right;
+}
+.links a{
+    color: #000;
+    text-decoration: none;
+    margin: 30px;
+    padding: 20px;
+}
+.links a:hover{
+    color: #f29298;
+}
+
+#logo{
+    background: url(img/logo-black.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 80px;
+    padding: 10px;
+    margin: 9px 50px;
+}
+#logo:hover{
+    background: url(img/logo-pink.png);
+    background-size: 77px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 77px;
+}
+.whitesquare{
+    width:80px;
+    opacity:0;
+}
+
+
+
+
+#home{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.banner{
+    margin: 40px 150px;
+    text-align: left;
+}
+.banner img{
+    max-width: 420px;
+}
+.name{
+    margin-top: 70px;
+    font-family: "EB Garamond", serif;
+    text-align: left;
+    font-size: 5rem;
+}
+.firstbio{
+    font-size: 1.8rem;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+
+
