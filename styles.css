@@ -18,7 +18,7 @@ body{
     font-family: "EB Garamond", serif;
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     color: #000;
 }
 
@@ -92,7 +92,7 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: 50% auto;
-    height: 900px;
+    height: 880px;
     padding-top: 120px;
     padding-left: 30px;
 }
@@ -124,6 +124,7 @@ body{
 
 /*PORTFOLIO*/
 #portfolio{
+    border-top:dashed 1px #eee;
     margin:auto;
     background-color: #fff;
     max-width: 1000px;
