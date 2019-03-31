@@ -7,9 +7,11 @@ body{
     /*font-family: "EB Garamond", serif;*/
 }
 
-/*OUTLINEEE*/ *{ 
-    outline: 1px solid lime;
-}
+
+
+
+
+
 
 /*UNIVERSAL*/
 .title{
@@ -25,7 +27,8 @@ body{
 }
 
 
-/*HOME*/
+
+/*NAV*/
 #header{
     position: fixed;
     top: 0;
@@ -89,11 +92,12 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: 50% auto;
-    height: 1000px;
+    height: 900px;
     padding-top: 120px;
+    padding-left: 30px;
 }
 .banner{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 150px;
     text-align: left;
 }
