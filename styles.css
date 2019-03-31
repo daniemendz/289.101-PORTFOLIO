@@ -8,7 +8,9 @@ body{
 }
 
 
-
+*{
+    border:solid 1px lime;
+}
 
 /*UNIVERSAL*/
 .title{
@@ -132,7 +134,7 @@ body{
 }
 
 .gallery{
-    height: 700px;
+    height: 900px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
