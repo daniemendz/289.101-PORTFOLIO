@@ -8,9 +8,6 @@ body{
 }
 
 
-*{
-    border:solid 1px lime;
-}
 
 /*UNIVERSAL*/
 .title{
@@ -19,10 +16,12 @@ body{
     font-weight: bold;
     margin: 20px 0px;
     color: #000;
+    margin-left: 10px;
 }
 
 .paragraph{
     font-size: 1.3rem;
+    margin-left: 10px;
 }
 
 
@@ -134,14 +133,28 @@ body{
 }
 
 .gallery{
-    height: 900px;
-    margin: auto;
+    height: 750px;
+    margin: 20px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 990px;
+    max-width: 1000px;
 }
 
 .galPic{
     margin: 10px;
     text-align: center;
+    width: 225px;
+}
+
+.galPic img{
+    width: 100%;
+}
+
+
+/*ABOUT*/
+#about{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    border-top:dashed 1px #eee;
 }
