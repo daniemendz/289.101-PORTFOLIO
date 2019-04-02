@@ -7,9 +7,6 @@ body{
     /*font-family: "EB Garamond", serif;*/
 }
 
-
-
-/*UNIVERSAL*/
 .title{
     font-family: "EB Garamond", serif;
     font-size: 3rem;
@@ -20,10 +17,13 @@ body{
 }
 
 .paragraph{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-left: 10px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 
 /*NAV*/
@@ -34,7 +34,7 @@ body{
     width: 100%;
     background-color: #fff;
     height:120px;
-    border-bottom: solid 2px #eee;
+    border-bottom: solid 1px #eee;
 }
 .nav{
     max-width: 1000px; /*IMPORTANAAANTT*/
@@ -44,20 +44,18 @@ body{
 }
 
 .links{
-    margin: 44px 20px;
-    font-size: 1.3rem;
+    margin: 46px 35px;
+    font-size: 1.2rem;
     text-align: right;
 }
 .links a{
     color: #000;
     text-decoration: none;
     margin: 30px;
-    padding: 20px;
+    padding: 15px;
 }
 .links a:hover{
-    color: #f29298;
-}
-.links a:active{
+    color: #e67d84;
     text-decoration: underline;
 }
 
@@ -75,7 +73,6 @@ body{
     background-size: 77px;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 77px;
 }
 .whitesquare{
     width:80px;
@@ -89,14 +86,15 @@ body{
     max-width: 1000px;
     margin: auto;
     display: grid;
-    grid-template-columns: 45% auto;
-    height: 880px;
+    grid-template-columns: 40% auto;
+    height: 830px;
     padding-top: 120px;
     padding-left: 30px;
+    padding-bottom: 25px
 }
 .banner{
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 110px;
     text-align: left;
 }
 .banner img{
@@ -113,16 +111,18 @@ body{
     margin-top: 50px;
 }
 .firstbio p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin:0;
-    padding:5px;
+    padding:6px;
 }
 
 
 
 /*PORTFOLIO*/
 #portfolio{
-    border-top:dashed 1px #eee;
+    border-top:dashed 2px #ddd;
+    padding-top:85px;
+    padding-bottom:85px;
     margin:auto;
     background-color: #fff;
     max-width: 1000px;
@@ -151,10 +151,25 @@ body{
 }
 
 
+
 /*ABOUT*/
 #about{
     max-width: 1000px;
     margin: auto;
     background-color: #fff;
-    border-top:dashed 1px #eee;
+    height: 500px;
+    padding-top:85px;
+    border-top:dashed 2px #ddd;
+}
+
+
+
+/*CONTACT*/
+#contact{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    height: 500px;
+    padding-top:85px;
+    border-top:dashed 2px #ddd;
 }
