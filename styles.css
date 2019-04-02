@@ -34,7 +34,7 @@ html{
     width: 100%;
     background-color: #fff;
     height:120px;
-    /*border-bottom: solid 2px #eee;*/
+    border-bottom: solid 1px #eee;
 }
 .nav{
     max-width: 1000px; /*IMPORTANAAANTT*/
@@ -122,6 +122,7 @@ html{
 #portfolio{
     border-top:dashed 2px #ddd;
     padding-top:85px;
+    padding-bottom:85px;
     margin:auto;
     background-color: #fff;
     max-width: 1000px;
@@ -156,5 +157,19 @@ html{
     max-width: 1000px;
     margin: auto;
     background-color: #fff;
+    height: 500px;
+    padding-top:85px;
+    border-top:dashed 2px #ddd;
+}
+
+
+
+/*CONTACT*/
+#contact{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    height: 500px;
+    padding-top:85px;
     border-top:dashed 2px #ddd;
 }
