@@ -146,9 +146,6 @@ html{
     text-align: center;
     width: 225px;
 }
-.galPic img:hover{
-    border-bottom: solid 4px #e67d84;
-}
 
 .galPic img{
     width: 100%;
